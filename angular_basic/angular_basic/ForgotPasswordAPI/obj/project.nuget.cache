@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dWnVZZj8NHo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eswar\\OneDrive\\Desktop\\Angular Forgetpass\\angular_basic\\ForgotPasswordAPI\\ForgotPasswordAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eswar\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.1\\microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+    "C:\\Users\\eswar\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

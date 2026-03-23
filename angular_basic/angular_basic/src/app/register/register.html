@@ -1,0 +1,36 @@
+<div class="auth-container">
+  <div class="auth-card">
+    <h2>Create Account 🚀</h2>
+
+    <input
+      type="text"
+      placeholder="Username"
+      [(ngModel)]="username"
+    />
+
+    <input
+      type="password"
+      placeholder="Password"
+      [(ngModel)]="password"
+    />
+
+    <input
+      type="password"
+      placeholder="Confirm Password"
+      [(ngModel)]="confirmPassword"
+    />
+
+    <button (click)="register()" [disabled]="loading">
+      {{ loading ? 'Creating...' : 'Register' }}
+    </button>
+
+    <p class="error" *ngIf="errorMessage">
+      {{ errorMessage }}
+    </p>
+
+    <p class="switch">
+      Already have an account?
+      <span (click)="goToLogin()">Login</span>
+    </p>
+  </div>
+</div>
